@@ -1,4 +1,5 @@
-const { app, BrowserWindow } = require('electron');
+import { app, BrowserWindow } from 'electron';
+declare const MAIN_WINDOW_WEBPACK_ENTRY: any;
 
 if (require('electron-squirrel-startup')) { // eslint-disable-line global-require
 	app.quit();
